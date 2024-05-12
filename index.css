@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.content_manager {
+  padding: 20px;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+@media (min-width: 960px) {
+  .introduction {
+    font-size: 22px;
+  }
+}
+
+.proyects {
+}
+@media (min-width: 960px) {
+  .proyects {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 2px;
+  margin-top: 40px;
+}
+
+@media (min-width: 960px) {
+  .card {
+    width: 400px;
+  }
+}
+.card_img_container {
+  width: 100%;
+}
+.card_img {
+  width: inherit;
+  height: 200px;
+}
+@media (min-width: 960px) {
+  .card_img {
+    height: 300px;
+  }
+}
+
+.card_text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+}
+.card_title {
+  font-size: 24px;
+}
+.card_description {
+}
+
+.card_show_more:hover {
+  cursor: pointer;
+}
+.card_show_more {
+  display: flex;
+  flex-direction: row-reverse;
+  text-decoration: none;
+  color: blue;
+}
